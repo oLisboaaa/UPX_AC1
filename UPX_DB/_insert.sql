@@ -13,16 +13,16 @@ INSERT INTO cliente_db (nome_client, num_telefone, email) VALUES
 
 -- Inserindo dados na tabela produto_db
 INSERT INTO produto_db (descricao, tamanho, cor) VALUES 
-('Vestido de festa', 38.00, 'Vermelho'),
-('Camisa social', 42.00, 'Branco'),
-('Saia longa', 40.00, 'Azul'),
-('Conjunto de roupas', 36.00, 'Preto'),
-('Blusa de verão', 38.00, 'Amarelo'),
-('Calça jeans', 34.00, 'Cinza'),
-('Casaco de inverno', 44.00, 'Bege'),
-('Roupas de bebê', 0.00, 'Multicor'),
-('Vestido casual', 36.00, 'Florido'),
-('Shorts e camiseta', 38.00, 'Verde');
+('Tecido vermelho', 38.00, 'Vermelho'),
+('tecido preto', 42.00, 'Preto'),
+('lã rosa', 40.00, 'Rosa'),
+('tecido listrado azul-preto', 36.00, 'Multicor'),
+('jeans azul', 38.00, 'Azul'),
+('tecido marrom', 34.00, 'Marrom'),
+('lã bege', 44.00, 'Bege'),
+('chadrez amarelo', 0.00, 'Multicor'),
+('Tecido de margaridas', 36.00, 'Florido'),
+('tecido Verde', 38.00, 'Verde');
 
 -- Inserindo dados na tabela pedido_db
 INSERT INTO pedido_db (nome_client, num_telefone, num_pecas, descricao, data_atual, data_entrega, total, forma_pag, cliente_id) VALUES 
